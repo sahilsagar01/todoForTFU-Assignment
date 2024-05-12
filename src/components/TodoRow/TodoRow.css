@@ -1,0 +1,14 @@
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  width: 100%;
+}
+.button-small {
+  display: none;
+}
+.row-container:hover .button-small {
+  display: block;
+}
+
