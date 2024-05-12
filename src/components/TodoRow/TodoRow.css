@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 3rem;
+  min-height: 2rem;
   width: 100%;
+  margin-bottom: .5rem;
 }
 .button-small {
   display: none;

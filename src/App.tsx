@@ -5,7 +5,7 @@ import Button from "./components/Buttons/Button.tsx";
 import "./App.css";
 
 const App: React.FC = () => {
-  const [tasks, setTasks] = useState<string[]>([]);
+  const [tasks, setTasks] = useState<string[]>(["Hi","I am Sahil Sagar"]);
   const [newTask, setNewTask] = useState<string>("");
 
   const handleAddTask = () => {
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       setNewTask("");
     }
   };
-
+console.log(tasks)
   const handleDeleteTask = (index: number) => {
     const updatedTasks = [...tasks];
     updatedTasks.splice(index, 1);

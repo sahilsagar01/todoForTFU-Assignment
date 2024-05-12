@@ -6,40 +6,45 @@
   height: 100vh;
 }
 
-.todobox{
+.todobox {
   width: 20rem;
   height: 70vh;
   background-color: #fff;
   position: relative;
 }
-.input_box{
+.input_box {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  gap: .5rem;
+  align-items: center;
+  gap: 0.5rem;
   width: 100%;
   padding: 1rem;
   position: absolute;
   bottom: 0;
   border-top: 2px solid rgba(242, 242, 242, 0.745);
 }
+.input_box *{
+  height: 3rem;
+}
 
-.input_box .button-large{
+.input_box .button-large {
   flex: 1;
+  font-size: 1rem;
 }
-.input_box input{
-  flex: 5;
-   border-radius: 5px;
-  padding: .5rem;
-   border: none;
+.input_box input {
+  width: 70%;
+  border-radius: 5px;
+  padding: 0.5rem .5rem .5rem .8rem;
+  border: none;
   background-color: rgb(240, 240, 240);
+  font-size: 1.2rem;
 }
-.todo_Cont{
+.todo_Cont {
   padding: 0 2rem;
   max-height: 48vh;
   overflow-y: auto;
 }
-.todo_head{
+.todo_head {
   padding: 1rem 2rem;
 }
 .todo_Cont::-webkit-scrollbar {
